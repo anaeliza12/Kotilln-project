@@ -27,6 +27,9 @@ class MainActivity : ComponentActivity() {
         nome.setText("Laranja, uva e maca")
 
 
+        val carrinho = findViewById<TextView>(R.id.exemplo)
+        carrinho.setText("Adicionar ao carrinho")
+
 
     }
 }
